@@ -2,7 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd0cbb28-3fb6-40b7-bb83-ed22be4b1cec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractPattern/AbstractDuckFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractPattern/CountingDuckFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractPattern/DuckFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractPattern/EchoAndCounterDuckFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/compositePattern/Flock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/quack/QuackEcho.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/simulator/AbstractSimulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/simulator/CompositeSimulator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Echo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/simulator/DuckSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simulator/DuckSimulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Echo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ducks/DuckCall.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ducks/DuckCall.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ducks/MallardDuck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ducks/MallardDuck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ducks/RedheadDuck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ducks/RedheadDuck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ducks/RubberDuck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ducks/RubberDuck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/goose/Goose.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/goose/Goose.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/goose/GooseAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/goose/GooseAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pigeon/Pigeon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pigeon/Pigeon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pigeon/PigeonAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pigeon/PigeonAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/quack/QuackCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/quack/QuackCounter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/quack/Quackable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/quack/Quackable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/simulator/DuckSimulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/simulator/DuckSimulator.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,10 +51,17 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="quack" />
+      <recent name="simulator" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -46,7 +75,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CompositeSimulator">
+    <configuration name="AbstractSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="simulator.AbstractSimulator" />
+      <module name="designpattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="simulator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompositeSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="simulator.CompositeSimulator" />
+      <module name="designpattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="simulator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DuckSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="simulator.DuckSimulator" />
       <module name="designpattern" />
@@ -62,6 +117,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CompositeSimulator" />
+        <item itemvalue="Application.AbstractSimulator" />
         <item itemvalue="Application.DuckSimulator" />
       </list>
     </recent_temporary>
@@ -77,6 +134,7 @@
       <option name="presentableId" value="Default" />
       <updated>1568005414914</updated>
       <workItem from="1568005417816" duration="3170000" />
+      <workItem from="1568558027842" duration="4049000" />
     </task>
     <task id="LOCAL-00001" summary="add counter">
       <created>1568008398402</created>
@@ -110,7 +168,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

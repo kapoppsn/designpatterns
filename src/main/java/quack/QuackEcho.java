@@ -1,8 +1,19 @@
 package quack;
 
-import ducks.MallardDuck;
+public class QuackEcho implements Quackable{
+    Quackable duck;
 
-public class QuackEcho implements Quackable {
-    public QuackEcho(MallardDuck mallardDuck) {
+    public QuackEcho(Quackable duck) {
+        this.duck = duck;
+    }
+
+    @Override
+    public void quack() {
+        duck.quack();
+        echo();
+    }
+    public void echo(){
+        System.out.print(" Echo: ");
+        duck.quack();
     }
 }

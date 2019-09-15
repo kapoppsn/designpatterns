@@ -9,6 +9,7 @@ import goose.GooseAdapter;
 import pigeon.Pigeon;
 import pigeon.PigeonAdapter;
 import quack.QuackCounter;
+import quack.QuackEcho;
 import quack.Quackable;
 
 public class DuckSimulator {
@@ -23,8 +24,14 @@ public class DuckSimulator {
         Quackable rubberDuck = new QuackCounter(new RubberDuck());
         Quackable gooseDuck = new GooseAdapter(new Goose());
         Quackable pigeon = new PigeonAdapter(new Pigeon());
+        Quackable duckEcho = new QuackEcho(new MallardDuck());
+        Quackable duckEcho1 = new QuackCounter(new QuackEcho(new MallardDuck()));
+        Quackable duckEcho2 = new QuackEcho(new QuackCounter(new MallardDuck()));
         System.out.println("\nDuck Simulator: With Goose Adapter");
         simulate(mallardDuck);
+        simulate(duckEcho);
+        simulate(duckEcho1);
+        simulate(duckEcho2);
         simulate(redheadDuck);
         simulate(duckCall);
         simulate(rubberDuck);
